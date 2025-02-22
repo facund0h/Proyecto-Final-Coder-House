@@ -1,0 +1,20 @@
+@import "variables";
+
+//*EXTEND PARA BOTONES*//
+.boton {
+    border: 3px solid $color-btn;
+    border-radius: 30px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: $color-btn;
+}
+
+//*EXTEND PARA TITULOS*//
+.titulos{
+        color: $color-blanco;
+        text-shadow: 0px 2px 5px $color-negro;
+        background-color: $color-secundario;
+        font-size: 3rem;
+        font-weight: 800;
+        padding: 50px 10px;
+}

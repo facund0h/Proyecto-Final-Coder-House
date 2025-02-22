@@ -1,0 +1,44 @@
+/*PAGINA PRODUCTOS*/
+
+.productos {
+    width: 100%;
+
+    h1{
+        @extend .titulos;
+    }
+    
+    //*CAJAS*//
+    .productos-contenido {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+        margin: 40px;
+    }
+    .producto {
+        background-color: $color-fondo;
+        border-radius: 40px;
+        img {
+            height:15rem;
+        }
+        .producto-txt {
+            padding: 50px 30px;
+            h3 {
+                font-size: 20px;
+                color: $color-blanco;
+                margin-bottom: 20px;
+            }
+            .producto-precio {
+                display: flex;
+                justify-content: space-between;
+                p {
+                    color: $color-blanco;
+                    font-size: 20px;
+                }
+            }
+            .producto-btn {
+                @extend .boton;
+            }
+        }
+    
+    }
+}

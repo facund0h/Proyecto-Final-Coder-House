@@ -1,0 +1,31 @@
+/*NUESTROS CLIENTES*/
+//*REVIEWS*//
+.reviews {
+    h1{
+        @extend .titulos;
+    }
+    .clientes {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+        gap: 2rem;
+        margin: 2rem;
+        .cliente {
+            background-color: $color-fondo;
+            color: $color-blanco;
+            padding: 35px;
+            border-radius: 50px;
+            h4 {
+                margin: 10px 0;
+                font-size: 20px;
+                font-weight: bold;
+            }
+            p {
+                font-family: $fuente-secundaria;
+            }
+            i {
+                color: $color-principal;
+                margin-right: 5px;
+            }
+        }
+    }
+}

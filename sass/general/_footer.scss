@@ -1,0 +1,13 @@
+/*FOOTER*/
+footer {
+        background-color: $color-negro;
+        color: $color-blanco;
+        font-family: $fuente-secundaria;
+    .footer-iconos {
+        i{
+            cursor:pointer;
+            padding: 0 10px;
+        }
+
+    }
+}

@@ -1,0 +1,12 @@
+/*BASICOS*/
+html {
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+body {
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}

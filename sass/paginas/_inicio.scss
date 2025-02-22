@@ -1,0 +1,45 @@
+/*PAGINA PRINCIPAL
+/* BANNER */
+.banner {
+    .banner-img {
+        img {
+            width: 100%;
+            filter: brightness(0.6);
+        }    
+    }
+    h1 {
+        @extend .titulos;
+    }
+}
+
+/* CATEGORÍAS */
+.categorias {
+    width: 100%;
+    padding: 50px 0;
+    .categorias-titulo {
+        color: $color-blanco;
+        background-color: $color-fondo;
+        padding: 30px;
+        font-size: 40px;
+        font-weight: 800;
+        }
+    }
+    .categorias-contenido {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        padding: 15px;
+        img {
+            width: 350px;
+            border-radius: 20px;
+        }
+        .categoria-txt {
+            font-size: 30px;
+            padding-bottom: 15px;
+            font-weight: bold;
+        }
+        .categoria-btn {
+            @extend .boton;
+            background-color: $color-fondo;
+        }
+}

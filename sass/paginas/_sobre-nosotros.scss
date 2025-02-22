@@ -1,0 +1,38 @@
+/*SOBRE NOSOTROS*/
+.sobre-nosotros-contenido {
+
+    h1{
+        @extend .titulos;
+    }
+    
+    //*CAJAS*//
+    .seccion {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0;
+        img {
+            height: 22rem;
+            padding: 10px;
+            border-radius: 40px
+        }
+        .seccion-contenido {
+            padding: 2rem;
+            background-color: $color-fondo;
+            border-radius: 40px;
+            color: $color-blanco;
+            margin: 10px;
+            .seccion-titulo {
+                color: $color-secundario;
+                text-shadow: 0px 2px 5px $color-negro;
+                font-size: 3rem;
+                font-weight: 700;
+            }
+            .seccion-txt {
+                margin: 20px;
+                line-height: 2rem;
+                font-family: $fuente-secundaria;
+            }
+        }
+    }
+}

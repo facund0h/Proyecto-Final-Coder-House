@@ -1,0 +1,17 @@
+/*NAVBAR*/
+.navbar {
+    background-color: $color-negro;
+    .nav-item {
+        a {
+            color: $color-blanco;
+        }
+        a:hover {
+            color: $color-principal;
+        }
+    }
+    .navbar-brand {
+        img {
+            width: 100px;
+        }
+    }
+}

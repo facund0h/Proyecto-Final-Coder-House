@@ -1,0 +1,107 @@
+/*RESPONSIVE TABLETS*/
+@media (max-width:1024px) {
+    header{
+        width: 100%;
+    }
+    .banner{
+        width: 100%;
+        h1{
+            font-size: 3rem;
+        }
+    }
+    .categorias {
+        width: 100%;
+        .categorias-titulo{
+            font-size: 2rem;
+        }
+        .categorias-contenido {
+            flex-direction: column;
+        }
+    }
+    .productos{
+        .productos-contenido {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .producto {
+            img {
+                height: 10rem;
+            }
+        }
+    }
+    .sobre-nosotros-contenido {
+        .seccion {
+            flex-direction: column;
+            img {
+                display: none;
+            }
+        }
+    }
+    .formulario {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 10px;
+        margin-top: 10px;
+        form {
+            textarea {
+                width: 100%;
+            }
+            .btn-enviar {
+                width: 100%;
+            }
+        }
+    }
+    .reviews {
+        .clientes {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    .banner {
+        h1 {
+            font-size: 2rem;
+        }
+    }
+    .categorias {
+        .categorias-titulo {
+            font-size: 1.5rem;
+        }
+    }
+    .productos {
+        h1 {
+            font-size: 2rem;
+        }
+        .productos-contenido {
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .producto {
+            img {
+                height: 15rem;
+            }
+        }
+    }
+    .sobre-nosotros-contenido {
+        h1 {
+            font-size: 2rem;
+        }
+        .seccion {
+            .seccion-contenido {
+                .seccion-titulo {
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+    .reviews {
+        .reviews-titulo {
+            h1 {
+                font-size: 2rem;
+            }
+        }
+        .clientes {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+}

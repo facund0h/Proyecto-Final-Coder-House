@@ -1,0 +1,73 @@
+/*FORMULARIO DE CONTACTO*/
+.formulario {
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    margin-top: 90px;
+
+    //*INFORMACION*//
+    .formulario-contenido {
+        color: $color-blanco;
+        background-color: $color-fondo;
+        padding: 20px;
+        border-radius: 50px;
+        h2 {
+            margin-bottom: 15px;
+            font-size: 35px;
+            font-weight: 800;
+            color: $color-secundario;
+            text-shadow: 0px 2px 5px $color-negro;
+        }
+        p {
+            font-size: 17px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            font-family: $fuente-secundaria;
+        }
+        a {
+            font-size: 17px;
+            display: inline-block;
+            text-decoration: none;
+            margin-bottom: 15px;
+            color: $color-blanco;
+            font-weight: 600;
+            text-shadow: 0px 2px 5px $color-negro;
+            font-family: $fuente-secundaria;
+            i {
+                color: $color-secundario;
+                text-shadow: 0px 2px 5px $color-negro;
+                margin-right: 10px;
+            }
+        }
+    }
+
+    //*FORMULARIO*//
+    form {
+        .campo, textarea {
+            width: 100%;
+            padding: 15px 10px;
+            font-size: 16px;
+            border: 1px solid #dbdbdb;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            outline: 0px;
+        }
+        textarea {
+            width: 530px;
+            height: 150px;
+        }
+        .btn-enviar {
+            width: 530px;
+            width: 530px;
+            padding: 15px;
+            font-size: 16px;
+            border-radius: 10px;
+            background: $color-fondo;
+            color: $color-btn;
+            cursor: pointer;
+        }
+    }
+}
